@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(185, 212, 223);
+}
+
+h1{
+    color: darkred;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.align div{
+    justify-content: space-between;
+}
+
+.container li{
+    font-size: 20px;
+    margin-left: 30px;
+    color: rgb(12, 15, 14);
+    margin-top: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+img{
+    height: 390px;
+    float: right;
+    padding-right: 30px;  
+    margin-top: 8px;
+
+}
+
+/* footer{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    background:rgba(20, 19, 17, 0.2);
+    color:rgb(10, 10, 10);
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 165px;
+
+}
+
+.row{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 10%;
+    margin-left: 0px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    color:rgb(230, 18, 28);
+    
+}
+
+.col p{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(10, 10, 10);
+  font-weight: bold;
+  text-align: left;
+  
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid rgb(14, 12, 12);
+    margin-bottom: 5px;
+    font-size: 25px;
+    
+}
+
+.social-icons .fa{
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10px;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  background:white;
+  margin-top: 15px;
+  
+}
+
+.social-icons p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(230, 18, 28);
+    margin-top: 10px;
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color:rgb(230, 18, 28);
+}
+
+h5{
+    font-size: 15px;
+    width:110px;
+    margin-top: 10px;
+    
+}
+
+
+.copyright{
+    font-size: 15px;
+    width: 90%;
+    border: 0;
+    margin: 1px auto;
+    color: rgb(31, 19, 9);
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
+
+hr{
+    border: 0;
+    width: 80px;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    
+    
+}
+
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-instagram{
+    color: brown;
+}
+
+.social-icons a:hover{
+    color: rgb(238, 16, 119);
+} */
+
+

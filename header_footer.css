@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1{
+    font-size: 20px;
+    font-weight: bold;
+    padding:0;
+    margin: 0 0 0 50px;
+    list-style: none;
+}
+
+.header1 li{
+    float: left;
+}
+
+
+.logo img{
+    height:60px;
+    width: 50px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+nav{
+    background: rgba(245, 245, 220,.6);
+    overflow: auto;
+}
+
+nav a{
+    /* display: flex; */
+    display: block;
+    padding:20px 15px;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    position: relative;
+    color:darkgreen ;
+    
+}
+
+.header1 li:last-child{
+    float: right;
+    margin-right: 30px;
+   
+}
+
+
+.header1 button{
+    font-size: 20px;
+    color: rgb(218, 13, 13);
+    font-weight: bold;
+    border: none;
+    background-color:rgba(245, 245, 220,.1);
+    cursor: pointer;
+
+}
+
+.header1 button:hover{
+    color: rgb(68, 11, 175);
+}
+
+.header1 a:hover{
+    color:red;
+    background-color: rgb(220, 231, 231);
+    cursor: pointer;
+}
+/* navbar ends */
+
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background:rgba(20, 19, 17, 0.2);
+    color:rgb(10, 10, 10);
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 35px;
+    overflow:hidden;
+
+    
+}
+
+.row{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 10%;
+    margin-left: 0px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    color:darkblue;
+    
+}
+
+.col p{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(10, 10, 10);
+  font-weight: bold;
+  text-align: left;
+  
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid rgb(14, 12, 12);
+    margin-bottom: 5px;
+    font-size: 25px;
+    
+}
+
+.social-icons .fa{
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10px;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  background:white;
+  margin-top: 20px;
+  
+}
+
+.social-icons p{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 10px;
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color:darkblue;
+}
+
+h5{
+    font-size: 15px;
+    width:110px;
+    margin-top: 10px;
+    
+}
+
+
+.copyright{
+    font-size: 15px;
+    width: 70%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 1px auto;
+    color: rgb(22, 15, 8);
+    /* position: absolute; */
+    text-align: center;
+    justify-content: center;
+    padding-left: 190px;
+}
+
+hr{
+    border: 0;
+    width: 80px;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    
+}
+
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-instagram{
+    color: brown;
+}
+
+.social-icons a:hover{
+    color: rgb(238, 16, 119);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>signup page</title>
+</head>
+
+<body>
+ 
+  
+    <a href="home.html">
+      <i class="fa fa-home" style="font-size: 35px; font-weight: bold";>Home</i>
+    </a>
+     
+  <div class="signup-form">
+        <h1>Sign Up form</h1>
+      <form action="login.html">
+        <label for="fname"><b>First Name</b></label><br>
+        <input type="text" id="fname" name="fname" placeholder="" required autocomplete="off"><br><br>
+        <label for="lname"><b>Last Name</b></label><br>
+        <input type="text" id="lname" name="lname" placeholder="" required ><br><br>
+        <label for="email"><b>Email</b></label><br>
+        <input type="email" id="email" name="email" placeholder="" required><br><br>
+        <label for="phone"><b>Phone no.</b></label><br>
+        <input type="tel" id="phone" name="phone" placeholder="12-345-67-890" required><br><br>
+
+        <b>Date of Birth</b><br>
+
+        <select name="date">
+          <option value="date">Date</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+
+        <select name="month">
+          <option value="month">Month</option>
+          <option value="january">January</option>
+          <option value="february">February</option>
+        </select>
+        
+        <select name="year">
+          <option value="year">Year</option>
+          <option value="1992">1992</option>
+          <option value="1993">1993</option>
+        </select>
+        <br><br>
+
+        <label for="pwd"><b>Password</b></label><br>
+        <input type="password" id="pwd" name="pwd" placeholder="" required><br><br>
+        <label for="cpwd"><b>Confirm Password</b></label><br>
+        <input type="password" id="cpwd" name="cpwd" placeholder="" required><br><br>
+        <input type="submit" value="Submit">
+       </form>
+    
+     </div>
+    
+       <p>Already have an account? <a href="login.html"><b>Login</b></a></p>
+</body>
+</html>

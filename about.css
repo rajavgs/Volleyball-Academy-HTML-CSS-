@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    min-height: 100vh;
+    position: relative; 
+    padding-left: 2 0px; 
+    margin-top: -25px;
+}
+
+.history ul{
+    margin-left: 20px;
+}
+
+
+.container::before{
+    content: '';
+    background-image: url("../images/ball.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.40;
+    
+} 
+
+.history, .history1,.timing h1{
+     color: rgb(37, 6, 207) ;
+     position: relative;
+     
+}
+
+.history ul li{
+    font-size: 20px;
+    color:rgb(5, 5, 5);
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.history1 ul li{
+    font-size: 20px;
+    color:rgb(5, 5, 5);
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.timing ul li{
+    font-size: 20px;
+    color:rgb(5, 5, 5);
+    margin-top: 10px;
+    margin-left: 40px;
+    position: relative;
+    font-weight: bold;
+}
+
+.history h1{
+    margin-left: 10px;
+}
+
+.history1 h1{
+    margin-left: 10px;
+}
+
+.timing h1{
+    margin-left: 10px;
+}
+

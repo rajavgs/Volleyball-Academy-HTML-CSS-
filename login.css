@@ -1,0 +1,52 @@
+body{
+    background-color: aliceblue;
+}
+
+.login-form{
+    margin:auto;
+    margin-top: 130px;    
+    width:350px;
+    height:280px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    
+}
+
+form{
+    margin-left: 20px;
+    /* width: 200px; */
+}
+
+form input{
+    width: 280px;
+    border:none;
+    border-radius: 4px;
+    padding:5px;
+}
+
+h1{
+    text-align: center;
+    /* padding-left: 30px; */
+    padding-top: 30px;
+}
+
+p{
+    text-align: center;
+    
+ } 
+
+input[type="submit"]{
+    width: 100px;
+    background-color:lightpink;
+    color:darkblue;
+    font-size: 20px;
+    /* pointer-events: auto; */
+    
+    
+}
+
+input[type="submit"]:hover{
+    color: red;
+    cursor: pointer;
+    
+}
